@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "cleanBuild": "rm -rd ./dist",
     "start": "rm -rd ./dist |& tsc --build && node ./dist/index.js"
   },
   "author": "",
